@@ -1,0 +1,108 @@
+body{
+    background-color: cadetblue;
+}
+.navbar-default .navbar-brand {
+    color: cadetblue;
+}
+.navbar-default .navbar-brand:hover {
+    color: cadetblue;
+}
+.navbar-default .navbar-brand > li > a:hover,
+.navbar-default .navbar-brand > li > a:focus {
+
+    color: cadetblue;
+}
+.navbar-default .navbar-nav > li > a {
+    color: cadetblue;
+}
+  .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgb(94, 205, 209);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+       color: cadetblue;
+}
+
+.overlay {
+    width: 100%;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    font-size: 17px;
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+}
+
+.overlay input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    width: 50%;
+    background: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.overlay input[type=password] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    width: 50%;
+    background: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.overlay input[type=date] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    background: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    display: inline;
+}
+
+.overlay button {
+    width: 50%;
+    padding: 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    
+}
+.radio-label {
+    display: inline-block;
+     vertical-align: top;
+     margin-right: 3%;
+ }
+ .radio-input {
+    display: inline-block;
+     vertical-align: top;
+ }
+
+ .radio-div{
+    text-align: center
+ }
+
+.overlay button:hover {
+    background: #bbb;
+}
